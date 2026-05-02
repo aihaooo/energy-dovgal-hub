@@ -6,19 +6,13 @@
 
     scrollbar-width: thin;
     scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+
+    scroll-behavior: smooth;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.header {
-    padding: 10px;
-    background: black;
-    color: white;
-    text-align: center;
-    user-select: none;
 }
 
 section {
@@ -212,7 +206,7 @@ li::before {
 }
 
 mark {
-    background: rgb(125, 186, 255);
+    background: rgb(248, 255, 149);
 }
 
 .practice__why-this-guide-card {
@@ -277,6 +271,17 @@ mark {
 .learning-material__wrapper {
     display: flex;
     gap: 50px;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    background: #000000;
+    padding: 20px;
+}
+
+.footer__text {
+    color: rgb(255, 255, 255, 0.7);
 }
 
 @media (max-width: 1280px) {
